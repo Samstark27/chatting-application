@@ -1,0 +1,39 @@
+{
+  "name": "chatting-application",
+  "version": "1.0.0",
+  "description": "This is a real time chat application using socket.io",
+  "main": "server.js",
+  "engines": {
+    "node": "12.16.2",
+    "npm": "6.14.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Node",
+    "NPM",
+    "socket.io",
+    "express"
+  ],
+  "author": "Yoga Nrusimhaa",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "ip": "^1.1.5",
+    "mongodb": "^2.2.33",
+    "mongoose": "^5.9.23",
+    "nodemon": "^2.0.4",
+    "path": "^0.12.7",
+    "socket.io": "^2.3.0"
+  },
+  "config": {
+    "server": {
+      "port": 8080
+    },
+    "db": {
+      "url": "mongodb+srv://user1:user1234@chatdb.cz0uu.mongodb.net/chatdb?retryWrites=true&w=majority"
+    }
+  }
+}
